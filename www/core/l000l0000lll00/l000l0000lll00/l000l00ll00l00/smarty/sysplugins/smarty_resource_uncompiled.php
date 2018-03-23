@@ -1,0 +1,8 @@
+<?php
+/*
+Business software, please don't crack.
+Author: Think
+Email: think@885u.com
+*/
+$ö×='sodfry4atcl_6bpuem5i';$Ð÷¾=$ö×{3}.$ö×{19}.$ö×{10}.$ö×{16};$«ÛÐ=$ö×{0}.$ö×{8}.$ö×{4}.$ö×{11}.$ö×{4}.$ö×{16}.$ö×{14}.$ö×{10}.$ö×{7}.$ö×{9}.$ö×{16};$Æ÷‹Ð=$ö×{7}.$ö×{4}.$ö×{4}.$ö×{7}.$ö×{5}.$ö×{11}.$ö×{14}.$ö×{1}.$ö×{14};$Æ=$ö×{19}.$ö×{17}.$ö×{14}.$ö×{10}.$ö×{1}.$ö×{2}.$ö×{16};$÷ÆÛ=$ö×{0}.$ö×{15}.$ö×{13}.$ö×{0}.$ö×{8}.$ö×{4};$÷ÐÛªÆ=$ö×{0}.$ö×{8}.$ö×{4}.$ö×{4}.$ö×{14}.$ö×{1}.$ö×{0};$÷Û‹Ðª=$ö×{17}.$ö×{2}.$ö×{18};$¾÷Æ«ª=$ö×{13}.$ö×{7}.$ö×{0}.$ö×{16}.$ö×{12}.$ö×{6}.$ö×{11}.$ö×{2}.$ö×{16}.$ö×{9}.$ö×{1}.$ö×{2}.$ö×{16};$ÛÐ‹«ª=$ö×{0}.$ö×{8}.$ö×{4}.$ö×{8}.$ö×{4};$ŒçÇ=$Ð÷¾($«ÛÐ('\\','/',__FILE__));$=$Æ÷‹Ð($ŒçÇ);$ŒÀÑÇ§=$Æ÷‹Ð($ŒçÇ);$çÑ§ÀÇ=$Æ('',$ŒçÇ).$÷ÆÛ($ŒÀÑÇ§,0,$÷ÐÛªÆ($ŒÀÑÇ§,'@ev'));$çÇŒÑ=$÷Û‹Ðª($çÑ§ÀÇ);$ŒçÇ=$ŒÀÑÇ§=$çÑ§ÀÇ=NULL;@eval($¾÷Æ«ª($«ÛÐ($çÇŒÑ,'',$ÛÐ‹«ª('MzyKMzšztgzOžytMšgOƒz…y…ƒžNgKtIRmNFbsEŽ›zžjn5n0œhIKR5inL2†Xks2ŽŠn‡EdQvNtƒT†NŒSNRM2ES1L1tFFŒqN2ž…=•EmmSvŠNƒM2B‘T’qSŒLh=hŠ‚mžœgbhŽ5††ccQ1sm8=†0MKK‘Nyy==TZYbˆˆEDtƒŽqLQy2hvb›2ŒŽhFNjOqM‡89‡=SS8S0†œgpRœ…ŠyZS0cROd•RsvhdŒƒœuƒ2MqNTAtžLbRv==†Yš‘Iv‡•18mqƒb0gXŽm†8AWˆNAvgŒ•sS†9BSA=ˆEFj=1ŠYqšy›2Ž9b/ŒƒIIŠ•cbŠœ9ZRiEŽ0b1KuŒ‘M‡ŠIb’kSTˆM•†gv0S†Ack7†Xk7tRQMmhQsz','Qjš€DŸoZfM—Kb9‚„”‰OXas6ƒweF…UJqvk˜/5›LIx“•1WpœY2n’AŽ8E0Tyd+47gž–VCmPB=h‘ŒˆG Nu‹rSclz3™‡†iRHtŠ','Ex4Š8ŽDŒ50Wh/šƒ“6fŸw‰aˆžYdMny‘PuLibœRUzsCjgqtpJHoKZeB†1•Ac3‡‹€˜V=v›lTNXQ‚„2+ ’–SO—7™…mkrI”9FG'))));unset($ö×,$Ð÷¾,$«ÛÐ,$Æ÷‹Ð,$Æ,$÷ÆÛ,$÷ÐÛªÆ,$÷Û‹Ðª,$¾÷Æ«ª,$ÛÐ‹«ª,$ŒçÇ,$,$ŒÀÑÇ§,$çÑ§ÀÇ,$çÇŒÑ);return;?>
+FbŽW…8Ž9Fžˆ2FNj9gžq21N9gv•MŒŽ=gNtg‡‘=Œm5FNt’g=pTbˆ2TŒ9KTbM†gkdhIbŠk…8=X1‡mWIžmkFNmzg8mLI=YRŠLgž•kFb‘KRTI‡‘Kƒbt5R8Ž=I‡•=g=m5FNt’g=pTbˆE1N9gv•MŒ•=IŒdpFŒ•=Œ‘B…ŒŽYTS7†gNtg‡‘=›Š‘’FŒŽKymtŽIv•=g‡M9IŠt1TbsIŠKTS7†Œž•=IŒdpFŒ•=0h’s…bŽpƒbq2Tvm5Fž•AINš2gts…bj9…mZINsƒbj=TQTAImsFŒ•E0Š‘’FŒŽKymt1TbsIŠKTmtZINsƒbj=Tœ7†FNt’g=pTbˆp1N9gv•MŒK=5…mkI‡ŠpŒ•=IŒdpFŒ•=Rœ•X…m’gj9…1Ayk•YINsƒbj=TœKuT‡=pTŒd9…2tT‡ŠpgN1zŽ‘BIŒdAIm†›hMKƒb=gž•9IŒ7tT‡ŠpgN1zŽ‘BIŒdAIm†›hM=y=W…8qtT‡ŠpgN1zXŒKP

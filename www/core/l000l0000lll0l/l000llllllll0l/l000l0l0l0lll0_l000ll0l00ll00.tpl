@@ -1,0 +1,1 @@
+<!doctype html><html><head><meta charset="utf-8"><title><{$title}><{:C('COPYRIGHT')}></title><link rel="stylesheet" href="__CSS__/install_common.css"><link rel="stylesheet" href="__CSS__/module_install.css"></head><body><block name="body"></block><include file="l000l0l0l0lll0/l000l0l0ll0l00"/></body><script src="__CJS__/common.js"></script><block name="js"></block></html>

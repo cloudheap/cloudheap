@@ -1,0 +1,1 @@
+<div class="header"><h1 class="x-logo"><a href="http://885u.com" target="_blank"><img src="__CIMG__/<{:L('l_logo_image')}>" alt="<{:L('l_logo_alt')}>"></a></h1><div class="wizard"><{:L('l_install_wizard')}></div><div class="version">Version <{:getVersion()}></div></div>

@@ -1,0 +1,93 @@
+.main .main-left
+{
+    width                 : 660px;
+    height                : auto;
+    border                : 1px solid #d4d4d4;
+    background            : #fff;
+    overflow              : hidden;
+    float                 : left;
+    border-radius         : 8px 8px 0 0;
+    -moz-border-radius    : 8px 8px 0 0;
+    -webkit-border-radius : 8px 8px 0 0;
+}
+
+.main .main-left .location
+{
+    height        : 39px;
+    line-height   : 39px;
+    border-bottom : 1px solid #d4d4d4;
+    background    : #f9f9f9;
+    padding-left  : 10px;
+}
+
+.main .main-left .location a
+{
+    margin : 0 5px;
+    color  : #3361ad;
+}
+
+.main .main-left .location a:hover
+{
+    color : #ff7d4e;
+}
+
+.main .main-left .title
+{
+    height        : 60px;
+    border-bottom : 1px solid #d4d4d4;
+    padding       : 0 15px;
+    text-align    : center;
+}
+
+.main .main-left .title h1
+{
+    height      : 34px;
+    line-height : 34px;
+    font-size   : 14px;
+    font-weight : bold;
+    color       : #3361ad;
+}
+
+.main .main-left .title div
+{
+    height      : 26px;
+    line-height : 26px;
+    text-align  : right;
+    color       : #666;
+}
+
+.main .main-left .content
+{
+    padding : 10px;
+    border-bottom : 1px solid #d4d4d4;
+}
+
+.main .main-left .content a
+{
+    color : #00608d;
+}
+
+.main .main-left .content a:hover
+{
+    color : #f60;
+}
+
+.clearfix:after
+{
+    content : '';
+    clear   : both;
+    display : block;
+}
+
+.main .main-left .content .bottom
+{
+    padding: 5px;
+    color:#333;
+    background: #fff;
+}
+
+.content-ad
+{
+    float: right;
+    margin: 0 0 0 5px;
+}

@@ -1,0 +1,25 @@
+/*首页结构*/
+.mid{border:1px solid #cccccc; background:url(../images/index_wp_bg.gif) repeat-x;width:928px;margin:9px auto 0 auto;}
+.mid .mid_l{width:665px;border-right:1px solid #cccccc;}
+.mid .mid_r{width:262px;background:url(../images/index_midr_bg.gif) repeat-y;}
+/*首页高度*/
+.mid .mid_l,.mid .mid_r{minheight:1240px;}
+
+.focus{border:1px solid #ccc;width:625px;margin:17px auto 16px auto;}
+.index_search{background:url(../images/index_search_bg.gif);height:41px;overflow:hidden;}
+.index_search ul{background:url(../images/index_search_icon.gif) no-repeat 23px 4px;height:41px;padding:0 0 0 97px;}
+.index_search li{list-style:none;text-align:left;float:left;padding:6px 10px 0 0;white-space:nowrap;}
+.index_search .sch_txt{color:#666;}
+.sch_txt{border:1px solid #cccccc;height:19px;line-height:19px;padding:0 0 0 5px;}
+.sch_btn{margin:4px 0 0 0;}
+
+#spectal_report .pic{width:275px;padding:12px 0 0 7px;}
+#spectal_report .con{width:358px;padding:6px 18px 0 0;}
+#essays .mid_ul{margin:0;background:none;}
+#people .pic{padding:12px 0 0 10px;}
+#people .pic img{padding:4px;}
+#people .con{width:145px;padding:4px 0 0 10px;float:left;}
+#people .con dt strong a{color:#666;}
+#consultant { float:left;width:330px; height:200px;}
+#consultant li{list-style:none;text-align:left;height:auto;}
+#institution .mid_r_ul li{list-style:none;text-align:left;height:auto;padding:5px 0;}

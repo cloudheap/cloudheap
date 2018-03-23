@@ -1,0 +1,227 @@
+/*
+
+[目录表] 
+
+	1- messageBoard          留言板框架
+	2- messageBoardLeft      留言内容左边框架
+	3- messageBoardRight     留言内容右边框架
+	4- messagePage           留言内容分页
+	5- messageAction         留言表单
+	6- rebox                 回复框架
+	
+*/
+
+/* =1 messageBoard––––––––––––––––––––––––––––––––-––––––*/
+#messageBoard{/* 留言板框架 */
+	float:left;
+	width:720px;
+	margin-top:20px;
+	overflow:hidden;
+	clear:both;
+}
+
+/* =2 messageBoardLeft––––––––––––––––––––––––––––––––––––––*/
+.messageBoardLeft{/* 留言内容左边框架 */
+	float:left;
+	width:98px;
+	background:#FFF;
+	border:1px solid #ccc;
+}
+.messageBoardAvatar{/* 头像 */
+	height:72px;
+	margin:10px auto; 
+	width:72px;
+}
+.messageBoardLeft b{/* 昵称 */
+	display:block;
+	width:98px;
+	font-size:12px;
+	font-weight:normal;
+	text-align:center;
+	line-height:15px;
+	padding-bottom:8px;
+}
+.messageBoardLeft b a{
+	color:#000;
+	font-size:12px;
+	font-weight:normal; 
+	text-decoration:none;
+}
+.messageBoardLeft b a:hover{
+	font-weight:normal; 
+	text-decoration:underline;
+}
+
+/* =3 messageBoardRight––––––––––––––––––––––––––––––––––––––*/
+.messageBoardRight{/* 留言内容右边框架 */
+	float:left;
+	width:520px;
+}
+.messageBoardRight-top{/* 留言内容右边框架头部 */
+	float:left;
+	height:34px;
+	width:620px;
+	_width:585px;
+	color:#828B95;
+	font-size:12px;
+	line-height:34px;
+	padding-left:35px;
+	background:url(../images/messageBoardRight-top.jpg) no-repeat;
+}
+
+.messageBoardRight-center{/* 留言内容右边框架中部 */
+	float:left;
+	width:570px;
+	color:#000;
+	font-size:14px;
+	line-height:23px;
+	padding-left:40px;
+	padding-right:10px;
+	background:url(../images/messageBoardRight-center.jpg) repeat-y;
+}
+.messageBoardRight-center a{
+	color:#888;
+	font-size:14px;
+	text-decoration:none;
+}
+.messageBoardRight-center a:hover{
+	color:#D02F53;
+	font-size:14px;
+	text-decoration:underline;
+}
+
+.messageBoardRight-bottom{/* 留言内容边框架底部 */
+	float:left;
+	height:16px;
+	width:620px;
+	background:url(../images/messageBoardRight-bottom.jpg) no-repeat;
+}
+
+
+/* =4 messagePage–––––––––––––––––––––––––––––––––-––––––*/
+#messagePage{/* 留言内容分页 */
+  float:right;
+  height:40px;
+	width:600px;
+	color:#222;
+	font-size:13px;
+	line-height:35px;
+	text-align:center;
+	margin:20px auto;
+	border-bottom:1px dashed #888;
+}
+#messagePage a{
+	color:#222;
+	padding:3px;
+	text-decoration:none;
+}
+#messagePage a:hover{
+	background-color:#444;
+	color:#fff;
+	text-decoration:underline;
+}
+
+/* =5 messageAction–––––––––––––––––––––––––––––––––––––*/
+#messageAction{/* 留言表单 */
+	float:right;
+	width:595px;
+	padding-bottom:20px;
+	margin-bottom:10px;
+	border:1px solid #CCCCCC;
+	background:url(../images/messageAction-bg.jpg) repeat;
+}
+#messageActionOther{/* 留言表单-管理员回复和游客回复专用 */
+	float:left;
+	width:595px;
+	padding-bottom:20px;
+	margin-bottom:10px;
+	border:1px solid #CCCCCC;
+	background:url(../images/messageAction-bg.jpg) repeat;
+}
+.messageMsg{/* 表单内部框架 */
+	margin:15px auto;
+	width:560px;
+	height:125px;
+}
+.messageUserinfo{/* 留言者信息 */
+	margin:auto;
+	width:560px;
+	color:#555;
+	font-size:14px;
+	line-height:35px;
+	padding-bottom:5px;
+}
+.messageUserinfoInput{/* 留言者信息-输入框 */
+  height:14px;
+  width:220px;
+	color:#222;
+	font-size:14px;
+	line-height:15px;
+	font-family:微软雅黑;
+	padding:6px 3px;
+	background:#FFF;
+	border:1px solid #D6D3D3;
+	vertical-align:middle;
+}
+.messageUserinfo img{/* 留言验证码 */
+	padding:10px 0 10px 0;
+	vertical-align:middle;
+}
+.messageSelectAvatar{/* 选择头像 */
+	width:560px;
+	height:25px;
+	margin:15px auto;
+}
+.messageSelectAvatar ul{
+	float:left;
+}
+.messageSelectAvatar ul li{
+	float:left;
+}
+.messageSelectAvatar ul li input,.messageSelectAvatar ul li img{
+	margin-right:3px;
+	vertical-align:middle;
+}  
+.messageText{/* 输入内容框架 */
+	margin:15px auto;
+	width:560px;
+}
+.messageArea{/* 输入内容文本框 */
+	height:150px;
+	width:538px;
+	color:#333;
+	font-size:14px;
+	font-family:微软雅黑;
+	line-height:22px;
+	padding:10px;
+	background:#FFFFFF;
+	border:#CCCCCC 1px solid;
+}
+.messagePost{/* 提交留言框架 */
+	margin:auto;
+	width:560px;
+}
+.messagePostBtn{/* 提交按钮 */
+	float:right;
+	cursor:pointer;
+	color:#fff;
+	font-size:14px;
+	text-align:center;
+	vertical-align:middle;
+	font-family:微软雅黑;
+	margin-left:20px;
+	padding:3px 20px;
+	border:none;
+	background:#4F4E4C;
+}
+
+/* =6 rebox{––––––––––––––––––––––––––––––––––––––*/
+.rebox{/* 留言回复样式 */
+   margin:12px auto;
+   padding:5px 10px;
+   width:88%;
+   color:#333;
+   font-style:italic;
+   border:1px dashed #ccc;
+   background:#FAFAFA;
+}

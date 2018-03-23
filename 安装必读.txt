@@ -1,0 +1,59 @@
+友情提示：建议您在 VPS 上使用绿色集成环境运行 CMS 程序，如 Wamp Server 或 LNMP 一键安装包。如果空间不稳定或空间涨价，便于打包后迁移源码，减少您的运营成本。
+
+在安装云堆站群程序前，请先开启伪静态和 PHP 的 PathInfo 模式，否则程序无法运行。具体配置如下：
+
+一、Lamp 环境
+    1.PHP 开启 PathInfo 模式
+        1).编辑 php.ini 文件，搜索 cgi.fix_pathinfo=0 改为 cgi.fix_pathinfo=1，保存。
+        2).重启 PHP
+
+    2.Apache 开启伪静态
+        1).编辑 httpd.conf 文件，搜索 #LoadModule rewrite_module modules/mod_rewrite.so，去掉 # 号
+        2).搜索 AllowOverride None 将 None 改为 All，保存。
+        3).重启 Apache
+
+二、Lnmp 环境(LNMP 一键安装包)
+    1.PHP 开启 PathInfo 模式
+        1).编辑 php.ini 文件，搜索 cgi.fix_pathinfo=0 改为 cgi.fix_pathinfo=1，保存。
+        2).重启 PHP
+
+    2.Nginx 开启伪静态
+        1).编辑 nginx.conf 文件，搜索 include enable-php.conf; 改为 #include enable-php.conf; 在下面增加 include enable-php-pathinfo.conf;
+        2).编辑 enable-php-pathinfo.conf 文件,内容如下：
+            location /
+            {
+                if (!-e $request_filename)
+                {   
+                    rewrite ^(.*)$ /index.php/$1 last;
+                }
+            }
+
+            location ~ [^/]\.php(/|$)
+            {
+                fastcgi_pass  unix:/tmp/php-cgi.sock;
+                fastcgi_index index.php;
+                include fastcgi.conf;
+                include pathinfo.conf;
+            }
+        3).重启 Nginx
+
+三、IIS 环境
+    1.如果你的服务器环境支持 ISAPI_Rewrite，可以编辑 httpd.ini 文件，添加下面的代码：
+    RewriteRule (.*)$ /index\.php\/$1 [I]
+    
+    2.IIS 的高版本可以配置 web.Config，在中间添加 rewrite 节点：
+    <rewrite>
+        <rules>
+            <rule name="OrgPage" stopProcessing="true">
+            <match url="^(.*)$" />
+            <conditions logicalGrouping="MatchAll">
+            <add input="{HTTP_HOST}" pattern="^(.*)$" />
+            <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
+            <add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" />
+            </conditions>
+            <action type="Rewrite" url="index.php/{R:1}" />
+        </rule>
+        </rules>
+    </rewrite>
+
+四、如果有不明白的地方，可以联系客服解决。云堆站群官网：http://885u.com

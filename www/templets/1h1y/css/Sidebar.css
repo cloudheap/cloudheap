@@ -1,0 +1,235 @@
+/*
+
+[目录表] 
+
+	1- sidebar               右边侧栏
+	2- searchBox             搜索框
+	3- ad                    侧边栏广告
+	4- sidebarBox            侧边栏框架模块
+	5- comments              侧边栏评论
+	6- tag                   标签云
+	7- links                 友情链接
+	8- guestbookSiderba      留言板右侧专用框架
+
+*/
+
+
+/* =1 sidebar––––––––––––––––––––––––––––––––-––––––*/
+#sidebar{/* 右边侧栏整体框架 */
+	float:left;
+	margin-top:20px;
+	margin-left:20px;
+	_margin-left:15px;
+	width:220px;
+}
+
+/* =2 searchBox–––––––––––––––––––––––––––––––––––––*/
+#searchBox{/* 搜索框架 */
+	width:218px;
+	height:50px;
+	background:#fff;
+	border:1px solid #CCC;
+	float:left;
+	overflow:hidden;
+	clear:both;
+}
+#searchBox h4 {
+	display:none;
+	font-size:0;
+}
+input.searchInput{/* 搜索输入框 */
+	float:left;
+	width:153px;
+	font-size:10px;
+	font-family:Arial;
+	color:#868686;
+	margin-left:10px;
+	margin-top:13px;
+	padding:5px 5px;
+	border:1px solid #e7e7e7;
+}
+input.searchSubmit{/* 提交搜索按钮 */
+	cursor:pointer;
+	float:left;
+	height:25px;
+	width:27px;
+	margin-top:13px;
+	margin-left:5px;
+}
+
+/* =3 ad––––––––––––––––––––––––––––––––––––––*/
+#ad_1{/* 右边栏广告 */
+	float:left;
+	width:220px;
+	margin:20px 0 0 0;
+}
+
+
+/* =4 sidebarBox–––––––––––––––––––––––––––––––––-––––––*/
+#sidebarBox{/* 侧边栏框架模块 */
+	float:left;
+	background:#fff;
+	width:220px;
+	margin:20px 0 0 0;
+}
+.boxTop{/* 框架头部 */
+	background:#777;
+  height:35px;
+  width:220px;
+}
+.boxTop h2{/* 框架头部标题 */
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	line-height:35px;
+	padding-left:10px;
+}
+.boxContent , .boxClassify{/* 框架内容部分(.boxClassify为侧边栏框架-日志分类) */
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+  padding:15px 0;
+  width:218px;
+  font-size:12px;
+  color:#222;
+  line-height:26px;
+}
+.boxContent a{
+	color:#222;
+	text-decoration:none;
+	padding:0 15px;
+}
+.boxContent a:hover{
+	text-decoration:none;
+	color:#D02F53;
+}
+.boxClassify a{
+	color:#222;
+	text-decoration:none;
+	padding-left:15px;
+	font-weight:bold;
+}
+.boxClassify a:hover{
+	text-decoration:none;
+	color:#D02F53;
+	font-weight:bold;
+}
+
+/* =5 comments––––––––––––––––––––––––––––––––-–––––*/
+.comments{/* 侧边栏评论专用列表 */
+	margin-left:15px;
+	margin-right:15px;
+	padding-bottom:10px;
+	overflow:hidden;
+}
+.comments li{
+	border-bottom:1px dashed #ccc;
+	list-style:none;
+	padding:10px 0;
+	overflow:hidden;
+	clear:both;
+}
+.comments small{
+	display:block;
+	height:21px;
+	line-height:21px;
+	padding-top:5px;
+	overflow:hidden;
+}
+.comments small a{
+	padding:0;
+	color:#669900;
+	text-decoration:none;
+}
+.comments small a:hover{
+	color:#669900;
+	text-decoration:underline;
+}
+
+.comments small a.username{
+	color:#D02F53;
+	text-decoration:none;
+}
+.comments p{
+	color:#222;
+	padding:5px 0;
+	line-height:21px;
+	overflow:hidden;
+}
+
+/* =6 tag––––––––––––––––––––––––––––––––––––––*/
+#tags{/* 侧边栏-浮云标签 */
+  width:200px;
+  height:150px;
+	position:relative; 
+	font-size:12px;
+	color:#333;
+	text-align:center;
+}
+#tags a{
+	position:absolute; 
+	top:0;
+	left:0;
+	color:#333; 
+	font-family:Arial;
+	text-decoration:none; 
+}
+#tags a:hover{
+	color:#fff;
+	background:#D02F53; 
+}
+
+/* =7 links––––––––––––––––––––––––––––––––-–––––*/
+.linksImg{/*友情链接(图片)专用*/
+	clear:both;
+	width:220px;
+	_width:218px;
+	padding-bottom:5px;
+}
+.linksImg li{
+	float:left;
+	width:88px;
+	height:31px;
+	line-height:14px;
+	list-style:none;
+	margin-right:12px;
+	_margin-right:0;
+	margin-bottom:12px;
+}
+.linksTxt{/*友情链接(文字)专用*/
+	width:220px;
+	_width:218px;
+	font-size:12px;
+	padding-top:5px;
+	padding-bottom:5px;
+	overflow:hidden;
+	clear:both;
+}
+.linksTxt li{
+	float:left;
+	line-height:18px;
+	list-style:none;
+	padding:8px 8px 0;
+	white-space:nowrap;
+}
+.linksTxt li a{
+	color:#222;
+	float:left;
+	text-decoration:none;
+}
+.linksTxt li a:hover{
+	color:#D02F53;
+	text-decoration:underline;
+}
+
+/* =8 guestbookSiderba––––––––––––––––––––––––––––––––-–––––*/
+.guestbookSiderba {/* 留言板右侧专用框架 */
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+  padding:15px 15px;
+  width:188px;
+  font-size:12px;
+  color:#222;
+  line-height:26px;
+}

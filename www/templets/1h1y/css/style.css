@@ -1,0 +1,39 @@
+/*
+
+[目录表] 
+
+	1- Reset           全局重设
+	2- Global          全局变量
+	3- Header          头部样式
+	4- Main            中间主体样式
+	5- Sidebar         右边栏样式
+	6- Footer          底部样式
+	7- Guestbook     	 留言薄样式  
+	8- Extras          其他样式(如文章页评论等)
+	
+*/
+
+
+/* =1 Reset––––––––––––––––––––––––––––––––-––––––*/
+@import url("Reset.css");
+
+/* =2 Global––––––––––––––––––––––––––––––––––––––*/
+@import url("Global.css");
+
+/* =3 Header––––––––––––––––––––––––––––––––––––––*/
+@import url("Header.css");
+
+/* =4 Main–––––––––––––––––––––––––––––––––-––––––*/
+@import url("Main.css");
+
+/* =5 Siderba–––––––––––––––––––––––––––––––––––––*/
+@import url("Sidebar.css");
+
+/* =6 Footer––––––––––––––––––––––––––––––––––––––*/
+@import url("Footer.css");
+
+/* =7 Guestbook––––––––––––––––––––––––––––––––-–––––*/
+@import url("Guestbook.css");
+
+/* =8 Extras––––––––––––––––––––––––––––––––-–––––*/
+@import url("Extras.css");

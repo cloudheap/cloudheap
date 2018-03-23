@@ -1,0 +1,1 @@
+<?php return['VERIFY_LENGTH'=>4,'VERIFY_WIDTH'=>235,'VERIFY_HEIGHT'=>40,'VERIFY_BGCOLOR'=>'#f3fbfe','VERIFY_SEED'=>'3456789aAbBcCdDeEfFgGhHjJkKmMnNpPqQrRsStTuUvVwWxXyY','VERIFY_FONTFILE'=>'./data/font.ttf','VERIFY_SIZE'=>30,'VERIFY_COLOR'=>'#444','VERIFY_NAME'=>'verify','VERIFY_FUNC'=>'strtolower'];

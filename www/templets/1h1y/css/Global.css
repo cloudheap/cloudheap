@@ -1,0 +1,37 @@
+/* =2 全局变量 Global––––––––––––––––––––––––––––––––-––––––*/
+
+body {
+	line-height: 1;
+	font: normal 12px "Microsoft YaHei","微软雅黑","Microsoft JhengHei","Verdana","Helvetica","sans-serif","宋体";
+	background: #F8F8F8;
+	color: #333;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix{
+	clear:both;
+	display: block;
+  overflow:hidden;
+}
+html[xmlns] .clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
+html{
+	scrollbar-face-color:#c8c8c8;
+	scrollbar-highlight-color:#c8c8c8;
+	scrollbar-shadow-color:#fff;
+	scrollbar-3dlight-color:#fff;
+	scrollbar-arrow-color:#fff;
+	scrollbar-track-color:#EAEAEA;
+	scrollbar-darkshadow-color:#c8c8c8;
+}
+

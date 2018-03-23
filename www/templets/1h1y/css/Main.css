@@ -1,0 +1,332 @@
+
+/*
+
+[目录表] 
+
+	1- container          中间容器,让main和siderba内容居中
+	2- main               main容器主要放置列表页、文章页内容
+	3- listBox            日志列表框架,包含日志标题、日期、图片、摘要等
+	4- oldArticle         首页下一页链接
+	5- pages              列表页日志分页
+	6- content            文章内容页内容、顶踩
+	7- otherBox     	    文章页其他框架(日志分享、日志信息、相关日志)
+	8- aboutmeContent     关于我的信息
+	8- place              当前浏览位置提示
+	
+*/
+
+
+/* =1 container––––––––––––––––––––––––––––––––-––––––*/
+#container{/* 中间大框架居中 */
+  margin:0 auto;
+  height:100%;
+  width:960px;
+}
+
+/* =2 main––––––––––––––––––––––––––––––––––––––*/
+#main{/* 中间大框架下文章列表、文章内容等居左显示 */
+	float:left;
+	margin-top:20px;
+	width:720px;
+}
+
+/* =3 listBox––––––––––––––––––––––––––––––––––––––*/
+#listBox{/* 日志列表框架 */
+	float:left;
+	width:718px;
+	margin-bottom:20px;
+	border:1px solid #CCC;
+	background:#fff;
+	clear:both;
+	overflow:hidden;
+}
+
+.listBoxTop{/* 日志列表头部 */
+	width:718px;
+	height:105px;
+}
+.listBoxComment{/* 日志列表头部-评论 */
+	float:left;
+	height:70px;
+	width:95px;
+	margin-left:18px;
+	_margin-left:9px;
+	margin-top:17px;
+	background:url(../images/comments.jpg) no-repeat;
+}
+span.countComments{
+	display:block;
+	height:32px;
+	width:55px;
+	color:#6F770A;
+	font-weight:bold;
+	font-size:31px;
+	text-align:center;
+	line-height:40px;
+	margin-top:10px;
+	margin-left:13px;
+	overflow:hidden;
+}
+span.txtComments{
+	display:block;
+	height:15px;
+	width:68px;
+	color:#6F770A;
+	font-size:12px;
+	text-align:center;
+	margin-top:2px;
+	margin-left:7px;
+}
+.listBoxTitle{/* 日志列表头部-标题(也是文章内容页标题) */
+	float:left;
+	height:105px;
+	width:600px;
+}
+.listBoxTitle h2{
+	display:block;
+	height:20px;
+	width:580px;
+	font-size:16px;
+	margin-top:27px;
+	margin-left:10px;
+	overflow:hidden;
+}
+.listBoxTitle h2 a{
+	font-size:16px;
+	color:#333;
+	font-weight:bold;
+	text-decoration: none;
+}
+.listBoxTitle h2 a:hover{
+	color:#D02F53;
+	text-decoration:underline;
+}
+span.timeAuthor{/* 日志列表头部-标题-文章发布日期和作者 */
+	display:block;
+	height:15px;
+	width:580px;
+	color:#9D9D9D;
+	margin-top:15px;
+	margin-left:10px;
+}
+span.timeAuthor small{
+	color:#690;
+}
+
+.listBoxCenter{/* 日志列表中部 */
+	margin:auto;
+	width:672px;
+	overflow:hidden;
+}
+.listBoxCenter img{/* 日志列表中部-预览图 */
+	margin-bottom:20px;
+}
+p.articleIntro{/* 日志列表中部-日志摘要 */
+	display:block;
+	color:#222;
+	font-size:14px;
+	line-height:25px;
+	margin:0 auto 20px auto;
+	overflow:hidden;
+}
+p.readMore{/* 日志列表中部-阅读全文 */
+	display:block;
+	_color:#D02F53;
+	font-weight:bold;
+	margin:0 auto 20px auto;
+	overflow:hidden;
+}
+p.readMore a{
+	color:#D02F53;
+	_color:#D02F53;
+	text-decoration:none;
+}
+p.readMore a:hover{
+	color:#000;
+	text-decoration:underline;
+}
+
+.listBoxBottom{/* 日志列表底部 */
+	margin:auto;
+	width:672px;
+	height:45px;
+	line-height:45px;
+	color:#666;
+	border-top:1px dashed #CCC;
+	overflow:hidden;
+}
+.listBoxBottom a:hover{
+	color:#D02F53;
+	text-decoration:underline;
+}
+small.listBoxBottomTag{/* 日志列表底部-标签和分类 */
+	float:left;
+}
+small.listBoxBottomTag a{
+	margin-right:10px;
+	color:#669900;
+	text-decoration:none;
+}
+small.listBoxBottomClick{/* 日志列表底部-围观群众 */
+	float:right;
+}
+small.listBoxBottomClick a{
+	margin-right:25px;
+	color:#669900;
+	text-decoration:none;
+}
+
+/* =4 oldArticle–––––––––––––––––––––––––––––––––-––––––*/
+.oldArticle{/* 下一页链接(链接到日志栏目，织梦首页分页效果不好，故先用这种土办法) */
+	color:#fff;
+  float:left;
+  width:90px;
+	height:35px;
+  margin:20px 0;
+	line-height:35px;
+	text-align:center;
+	background:#333;
+}
+.oldArticle a{
+	color:#fff;
+	text-decoration:none;
+}
+.oldArticle a:hover{
+	font-weight:bold;
+	text-decoration:none;
+}
+
+/* =5 pages–––––––––––––––––––––––––––––––––-––––––*/
+.pages{/* 日志列表分页 */
+  float:left;
+  height:23px;
+  width:700px;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+.pages ul{
+	float:left;
+}
+.pages ul li{
+	float:left;
+	line-height:17px;
+	margin-right:8px;
+}
+.pages ul li a{
+	display:block;
+	float:left;
+	color:#fff;
+	padding:2px 12px;
+	text-align:center;
+	text-decoration:none;
+	background:#666;
+}
+.pages ul li a:hover{
+	_color:#fff;
+	padding:2px 12px;
+	background-color:#333;
+	text-decoration:underline;
+}
+.pages ul li.thisclass,.pages ul li.thisclass a,.pagebox ul li.thisclass a:hover{
+	color:#fff;
+	background-color:#333;
+	padding:2px 12px;
+}
+
+/* =6 content–––––––––––––––––––––––––––––––––-––––––*/
+.content{/* 文章内容页日志内容 */
+	margin:10px auto;
+	color:#111;
+	font-size:14px;
+	line-height:25px;
+	overflow:hidden;
+	width:660px;
+}
+.content p{
+	text-indent:2em;
+	padding:8px 0;
+}
+.content a{
+	color:#D02F53;
+	text-decoration:none;
+}
+.content a:hover{
+	text-decoration:underline;
+}
+.digg{/* 文章内容页-顶踩 */
+	float:right;
+}
+.diggGood , .diggBad{
+	color:#666;
+	cursor:pointer;
+	float:right;
+}
+
+/* =7 otherBox––––––––––––––––––––––––––––––––-–––––*/
+#otherBox{/* 文章页其他框架(如相关日志等) */
+	border:1px solid #CCC;
+	background:#fff;
+	float:left;
+	margin-bottom:20px;
+	width:718px;
+	clear:both;
+	overflow:hidden;
+}
+#otherBox h3{/* 框架标题 */
+	color:#669900;
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+	padding:25px 0 0 25px;
+}
+.relateArticle{/* 相关日志列表 */
+	float:left;
+	width:580px;
+	padding:20px 0 20px 20px;
+}
+.relateArticle li{
+	float:left;
+	height:27px;
+	width:90%;
+	margin-left:5%;
+	line-height:28px;
+	list-style:none;
+	overflow:hidden;
+}
+.relateArticle li a{
+	color:#333;
+	text-decoration:none;
+}
+.relateArticle li a:hover{
+	text-decoration:underline;
+	color:#D02F53;
+}
+.ico2 li{
+	background:url(../images/sidebarli.gif) 9px 9px no-repeat;
+	margin-left:8px;
+	padding:0 30px;
+}
+
+/* =8 aboutmeContent––––––––––––––––––––––––––––––––-––––––*/
+.aboutmeContent{/* 关于我的信息(list_about.htm专用) */
+	float:left;
+	font-size:14px;
+	color:#222;
+	line-height:23px;
+	margin:0 0;
+	padding:40px 40px;
+	overflow:hidden;
+}
+
+/* =9 place––––––––––––––––––––––––––––––––-––––––*/
+#place{/* 当前位置提示 */
+	width:670px;
+}
+#place a{
+	color:#333;
+	text-decoration:none;
+}
+#place a:hover{
+	color:#D02F53;
+	text-decoration:underline;
+}

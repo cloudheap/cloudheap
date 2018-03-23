@@ -1,0 +1,1 @@
+<extend name="l000l0l0l0lll0/l000ll0l00ll00"/><block name="body"><iframe class="l0000ll00l0000 p100" src="<{$l0000ll00l0000}>" frameborder="0" scrolling="no"></iframe></block> 

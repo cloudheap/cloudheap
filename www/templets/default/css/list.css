@@ -1,0 +1,167 @@
+.main .main-left
+{
+    width                 : 660px;
+    height                : auto;
+    overflow              : hidden;
+    float                 : left;
+    border-radius         : 8px 8px 0 0;
+    -moz-border-radius    : 8px 8px 0 0;
+    -webkit-border-radius : 8px 8px 0 0;
+}
+
+.main .main-left dl
+{
+    border-bottom : 1px solid #d4d4d4;
+    margin-bottom : 20px;
+}
+
+.main .main-left dl dt
+{
+    height                : 30px;
+    line-height           : 30px;
+    background            : #f8f8f8;
+    font-weight           : bold;
+    text-indent           : 14px;
+    border                : 1px solid #d4d4d4;
+    border-radius         : 8px 8px 0 0;
+    -moz-border-radius    : 8px 8px 0 0;
+    -webkit-border-radius : 8px 8px 0 0;
+}
+
+.main .main-left dl dd
+{
+    border-left : 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+    background  : #fff;
+}
+
+.main .main-left dl .channel
+{
+    height      : 30px;
+    line-height : 30px;
+    text-indent : 15px;
+    font-size   : 14px;
+    font-weight : bold;
+    color       : #046380;
+}
+
+.main .main-left dl .info
+{
+    height      : 24px;
+    line-height : 24px;
+    color       : #999;
+    padding-top : 5px;
+}
+
+.main .main-left dl .info .time
+{
+    float       : left;
+    text-indent : 15px;
+}
+
+.main .main-left dl .info .hits
+{
+    float         : right;
+    padding-right : 15px;
+}
+
+.main .main-left dl .content
+{
+    padding    : 15px;
+    word-break : break-all;
+    word-wrap  : normal;
+}
+
+.main .main-left dl .read
+{
+    text-align     : right;
+    height         : 20px;
+    line-height    : 20px;
+    padding-bottom : 10px;
+}
+
+.main .main-left dl .read a
+{
+    color         : #3361ad;
+    padding-right : 15px;
+}
+
+.main .main-left dl .read a:hover
+{
+    color : #f60;
+}
+
+.pagination 
+{
+    height: 36px;
+    margin-bottom: 20px;
+}
+
+.pagination ul 
+{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background : #fff;
+    margin-left: 0;
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.pagination li 
+{
+    display: inline;
+}
+
+.pagination a 
+{
+    float: left;
+    padding: 0 14px;
+    line-height: 34px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-left-width: 0;
+}
+
+.pagination a:hover,.pagination .active a 
+{
+    background-color: #f5f5f5;
+}
+
+.pagination .active a 
+{
+    color: #999;
+    cursor: default;
+}
+
+.pagination .disabled span,.pagination .disabled a,.pagination .disabled a:hover
+ {
+    color: #999;
+    background-color: transparent;
+    cursor: default;
+}
+
+.pagination li:first-child a
+{
+    border-left-width: 1px;
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+}
+
+.pagination li:last-child a
+{
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.pagination-left 
+{
+    text-align: left;
+}

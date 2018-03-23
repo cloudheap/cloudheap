@@ -1,0 +1,1 @@
+<div class="footer"> Version <{:getVersion()}> Powered By <a href="http://885u.com" target="_blank">885u.com</a> &copy; <{:get_year()}>-2025 All Rights Reserved </div>

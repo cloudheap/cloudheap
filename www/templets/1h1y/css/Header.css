@@ -1,0 +1,82 @@
+/*
+[目录表] 
+	1- header          整体头部样式
+	2- navMenu         导航菜单
+	3- sub             LOGO、网站说明文字、微博、RSS订阅链接等样式
+*/
+
+
+/* =1 header–––––––––––––––––––––––––––––––––––––––*/
+#header{/* 整体头部 */
+	border-bottom:1px dashed #CCC;
+	background:#FFF;
+	height:145px;
+	width:100%;
+}
+
+/* =2 navMenu––––––––––––––––––––––––––––––––––––––*/
+#navMenu{/* 导航菜单 */
+	background:url(../images/menu_bg.jpg) repeat-x;
+	width:100%;
+}
+#navMenu ul{
+	margin:auto;
+	height:40px;
+	width:960px;
+	overflow:hidden;
+}
+#navMenu ul li{
+	float:left;	
+}
+#navMenu ul li a{
+	text-decoration:none;
+}
+#navMenu ul li span {
+	display:block;
+	cursor:pointer;
+	color:#FFF;
+	height:40px;
+	_width:100px;
+	padding:0 35px;
+	_padding:0 0;
+	font-weight:bold;
+	text-align:center;
+	line-height:43px;	
+}
+#navMenu ul li a:hover span , #navMenu ul li a.active span{
+	background:#3D3D3D;
+	color:#FF992B;
+}
+
+/* =3 sub–––––––––––––––––––––––––––––––––-––––––*/
+#subMenu{
+	margin:0 auto;
+	width:960px;
+}
+#subMenu h1{/* LOGO字体样式 */
+	float:left;
+	display:block;
+	height:105px;
+	color:#D02F53;
+	font-size:36px;
+	font-weight:normal;
+	line-height:105px;
+}
+#subMenu h4{/* 网站说明文字 */
+	float:left;
+	display:block;
+	padding-left:20px;
+	height:105px;
+	font-weight:normal;
+	line-height:123px;
+}
+#subMenu ul{
+	float:right;
+	height:28px;
+	margin-top:40px;
+}
+#subMenu li{/* 功能导航：微博、RSS订阅等 */
+	float:left;
+  list-style:none;
+  margin-right:17px;
+}

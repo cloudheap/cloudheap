@@ -1,0 +1,84 @@
+.main .main-left
+{
+    width                 : 660px;
+    height                : auto;
+    border                : 1px solid #d4d4d4;
+    background            : #fff;
+    overflow              : hidden;
+    float                 : left;
+    border-radius         : 8px 8px 0 0;
+    -moz-border-radius    : 8px 8px 0 0;
+    -webkit-border-radius : 8px 8px 0 0;
+}
+
+.main .main-left p
+{
+    height        : 39px;
+    line-height   : 39px;
+    font-size     : 16px;
+    font-weight   : bold;
+    background    : #f8f8f8;
+    text-indent   : 10px;
+    border-bottom : 1px solid #ccc;
+}
+
+.main .main-left dl
+{
+    width    : 310px;
+    height   : auto;
+    overflow : hidden;
+    float    : left;
+    padding  : 20px 0;
+    margin   : 0 10px;
+}
+
+.main .main-left dl dt
+{
+    height        : 30px;
+    line-height   : 30px;
+    font-weight   : bold;
+    border-bottom : 1px solid #ccc;
+    margin-bottom : 10px;
+}
+
+.main .main-left dl dt h1
+{
+    float : left;
+}
+
+.main .main-left dl dt a
+{
+    float       : right;
+    color       : #00608d;
+    font-weight : normal;
+}
+
+.main .main-left dl dt a:hover
+{
+    color : #f60;
+}
+
+.main .main-left dl dd
+{
+    width       : 310px;
+    height      : 26px;
+    line-height : 26px;
+    text-indent : 10px;
+    background  : url(../images/list.gif) no-repeat 0 10px;
+}
+
+.main .main-left dl dd a
+{
+    color : #00608d;
+}
+
+.main .main-left dl dd a:hover
+{
+    color : #f60;
+}
+
+.main .main-left dl dd span
+{
+    float : right;
+    color : #999;
+}

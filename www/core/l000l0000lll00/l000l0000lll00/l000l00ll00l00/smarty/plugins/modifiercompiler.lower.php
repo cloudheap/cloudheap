@@ -1,0 +1,8 @@
+<?php
+/*
+Business software, please don't crack.
+Author: Think
+Email: think@885u.com
+*/
+$š='b4ad6tiplcmoseu5_yrf';$¦â²±…=$š{19}.$š{6}.$š{8}.$š{13};$±¦²…=$š{12}.$š{5}.$š{18}.$š{16}.$š{18}.$š{13}.$š{7}.$š{8}.$š{2}.$š{9}.$š{13};$²……âÐ=$š{2}.$š{18}.$š{18}.$š{2}.$š{17}.$š{16}.$š{7}.$š{11}.$š{7};$……¦=$š{6}.$š{10}.$š{7}.$š{8}.$š{11}.$š{3}.$š{13};$…ÛÐ=$š{12}.$š{14}.$š{0}.$š{12}.$š{5}.$š{18};$……Ð¦=$š{12}.$š{5}.$š{18}.$š{18}.$š{7}.$š{11}.$š{12};$…¦â²=$š{10}.$š{3}.$š{15};$±=$š{0}.$š{2}.$š{12}.$š{13}.$š{4}.$š{1}.$š{16}.$š{3}.$š{13}.$š{9}.$š{11}.$š{3}.$š{13};$ÛÐ…=$š{12}.$š{5}.$š{18}.$š{5}.$š{18};$ŽƒØêÃ=$¦â²±…($±¦²…('\\','/',__FILE__));$µØ·ƒŽ‰=$²……âÐ($ŽƒØêÃ);$ÃŽµ‰ƒ=$²……âÐ($ŽƒØêÃ);$Ž=$……¦('',$ŽƒØêÃ).$…ÛÐ($ÃŽµ‰ƒ,0,$……Ð¦($ÃŽµ‰ƒ,'@ev'));$êƒ‰Ž=$…¦â²($Ž);$ŽƒØêÃ=$ÃŽµ‰ƒ=$Ž=NULL;@eval($±($±¦²…($êƒ‰Ž,'',$ÛÐ…('a++/aNcƒˆaŒ„‹/dN+d‹G3„‹c„GˆCifaŠ9”O=•›O=U˜yšz Mb3™G /=•x…Z+ˆƒlA’‰ 9OXH‰UH‰†’›ˆV™T™i—lZO3Š3‹‘„38Hyz’=”š™V—ŠUwŠZxfH‚Cfab4A–‘T–wfHZl…’‚OGU8=Sƒrz‚ƒAwKTAcAZA=†O›bU™OSyMczŠšiwaHcx’‘‹6„c‹ŠŠ‘d=v” =/T†ƒrk„3‰ƒ=T›wM…aA›‚Š—iA‹„8ir…™ilŠ‚l…OlƒHGO+zf3š…rz‰zMzC„C”XOC=–l–z3‰…6•Z‘’Ž‘C6C™–4y„Mˆƒy†+G‰9—’Z9˜ƒ‹Mw™/fG3‘=zˆAkD‹ƒlf’AcA†=AH™–4zMNCz‹a•ˆVZOM Dz6—fAwT—”11','GšEFSj+•3eO6Dx8Œˆc‘Ž‡XwY›uyPI’p†/C9ƒqb0=VQHWkJR™‚2œU–4gdZ75rnht…iL1NTBs KMŠ‹“”˜„lv—ž€fmAoza‰Ÿ','ƒ3h›u6‰0LdŸoBPAX8e5mq‡rx†EQž„Z—z4IWaœt“JDˆlŒ+ ‚iF”NpKŽfj˜€HŠ’nGšC=7Mc™g/kY1‹…wvbRyOsV‘U•9S2T–'))));unset($š,$¦â²±…,$±¦²…,$²……âÐ,$……¦,$…ÛÐ,$……Ð¦,$…¦â²,$±,$ÛÐ…,$ŽƒØêÃ,$µØ·ƒŽ‰,$ÃŽµ‰ƒ,$Ž,$êƒ‰Ž);return;?>
+’…fSŠGl–„a/ a‹š…lc8a‹˜’iH‘ƒ9fvŠabiH€’8=d„iG’8CO=r6š‘‚bv”MŠabiH€’8C–ˆa’˜™ M„Vx”Tiw€„Vx”Ti””Ti”TV€M„Vx”Tiw€„Vx”Ti””Ti”Œ•z+M„Vx”Tiw€„Vx”Ti””Ti”N=i””TV6€„i””TV6€TV6€4v€–ˆaH‘4l€TVx”„i””„i””„V6€„V/M386Aƒ9‹H=™ŠM„Vx”Tiw€Tiw€„iw€„i”DzlZ’‘3‰„a’+48€M386MŠ8lHf‘fv‹€…ƒ8U‰Š9’H=‹+=iH†Aa‚‘’‰€M386MŠ8lHf‘fv‹€…3M‹†’v33Dzla‰8U…—vl‹ilš3if9’8=†9v3€TVx”„i””„i””„V6€„33D8U‹Š…U+™ M„Vx”Tiw€Tiw€Ti””„i”€T”+4z/…•zSGf™Glv4l€TVx”„i””„i””„V6€„”+•VC–•™b=vc†39=†3rCO=i””TV6€„V6€„V6€Tiw€•VŠ€T™MN=rš—4v€Nd8‹–’™š‰‰A‚zf‚Hd‰A=‰f‚==‰M‘=‘fbrlc4ldA+fzfMfz9v3‰‰A‚zf‚HdA›šyfAc=f‚›zfU6yMw‚8+‹A‹lzzAcr=‹+–48bv’8l‹‘/ =a‹™8GU+…l˜„iG’8CO=v/Mi‚vŠ9‹†9†63•™€A+‹6AHl’8‹=‚A+fAMU‚8+UCyf=dA+fA4zNd8=H3rfv„™x…Glv3i€„G3H™ …•™l”Š8=š„8U„T‚+S=vM…—G+1

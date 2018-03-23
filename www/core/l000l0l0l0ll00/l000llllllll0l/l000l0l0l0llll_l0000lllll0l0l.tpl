@@ -1,0 +1,1 @@
+<extend name="l000l0l0l0lll0/l000ll0l00ll00"/><block name="body"><div class="x-box"><include file="l000l0l0l0lll0/l0000lll0ll000"/><include file="l000l0l0l0lll0/l0000lllll0l0l"/><include file="l000l0l0l0lll0/l000l0l0ll0l00"/></div></block><block name="js"><script src="__JS__/l0000lllll00l0_l000ll0000000l.js"></script></block>

@@ -1,0 +1,1 @@
+<?php return['app_begin'=>['behavior\l000l000l0l00l']];

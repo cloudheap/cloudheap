@@ -1,0 +1,1 @@
+<ul class="breadcrumb"><div class="botm_lt">Designed By <a href="http://think.885u.com" target="_blank">Think</a></div><div class="botm_rt">Version <{:getVersion()}> Powered By <a href="http://885u.com" target="_blank">885u.com</a> &copy; <{:get_year()}>-2025 All Rights Reserved</div></ul> 

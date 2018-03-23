@@ -1,0 +1,14 @@
+# 重写规则，去掉 URL 入口文件 index.php
+<IfModule mod_rewrite.c>
+  Options +FollowSymlinks -Multiviews
+  RewriteEngine On
+
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
+</IfModule>
+
+# 禁止访问指定后缀名的文件
+<FilesMatch \.(db|sql|sql.gz|ini|tpl)$>
+    Deny from all
+</FilesMatch>
