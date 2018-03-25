@@ -1340,6 +1340,7 @@ td.x-grid-rownumber {
     background: none repeat-x scroll 0 -16px #e8e9ef;
     border: 1px solid #c3c3d6;
     left: 0;
+    margin-top:-3px;
     padding: 2px;
     position: absolute;
     top: 0;
