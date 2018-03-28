@@ -175,6 +175,7 @@
         'l_start_success' => '启动成功',
         'l_pause_success' => '暂停成功',
         'l_stop_success' => '停止成功',
+        'l_all_states' => '所有状态',
         'l_collecting' => '采集中',
         'l_start' => '开始',
         'l_end' => '结束',
